@@ -31,7 +31,7 @@ The API we want you to connect to is https://kanye.rest/
 Name: `<your name>` <br/>
 Email: `<your email>`<br/>
 
-## Instructions (Docker required)
+## Instructions
 ### DO NOT START A NEW LARAVEL APP, USE THIS BOILERPLATE INSTEAD !!
 
 ### Cloning the repository
@@ -59,13 +59,19 @@ Email: `<your email>`<br/>
     git clone https://github.com/<username>/<repository>.git
     ```
 
-### Getting Started
+## Getting Started
+
 1. Create a copy of the `.env.example` file as `.env`
     ```bash
     cp .env.example .env
     ```
 
 2. Install dependencies:
+
+<details>
+<summary> a. Docker (Recommended)</summary>
+
+3. Install composer dependecies
     ```shell
     docker run --rm \
         -u "$(id -u):$(id -g)" \
@@ -75,17 +81,37 @@ Email: `<your email>`<br/>
         composer install --ignore-platform-reqs
     ```
 
-3. Start the container (Sail):
+4. Start the container (Sail):
     ```shell
     ./vendor/bin/sail up -d
     ```
-   
-4. Generate a new secret key:
+
+5. Generate a new secret key:
     ```shell
     ./vendor/bin/sail artisan key:generate
     ```
+</details>
+
+<details>
+<summary>b. Without Docker (Not recommended)</summary>
+
+3. Install all required dependencies
+    ```bash
+    composer install
+    ```
+
+4. Generate a new secret key:
+    ```shell
+    php artisan key:generate
+    ```
+
+</details>
+
+‼️ <i>Note: Docker is recommended as you have all the external dependecies needed are already present in the provided container. Without docker you may need to install some external dependencies like MySQL or some extra PHP extensions required by the project</i>
+
+## Your first commit (IMPORTANT)
    
-5. (IMPORTANT) Edit the README.md file and add your name and email.
+1. Edit the README.md file and add your name and email.
     ```diff
     - Name: `<your name>` <br/>
     - Email: `<your email>` <br/>
@@ -93,7 +119,7 @@ Email: `<your email>`<br/>
     + Email: jhondoe@exmaple.com <br/>
     ```
    
-6. (IMPORTANT) Submit your first commit with just the changes to the README.md file. Must be done before starting the assignment.
+2. Submit your first commit with just the changes to the README.md file. Must be done before starting the assignment.
     ```shell
     git add README.md
     git commit -m "Initial commit"
