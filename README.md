@@ -126,25 +126,29 @@ Email: `<your email>`<br/>
     git push
     ```
 
-### Executing Commands
-#### PHP Commands
+## Executing Commands
+
+<details>
+<summary>Docker/Sail</summary>
+
+### PHP Commands
 ```shell
 ./vendor/bin/sail php --version
  
 ./vendor/bin/sail php script.php
 ```
 
-#### Composer Commands
+### Composer Commands
 ```shell
 ./vendor/bin/sail composer require laravel/sanctum
 ```
 
-#### Artisan Commands
+### Artisan Commands
 ```shell
 ./vendor/bin/sail artisan queue:work
 ```
 
-#### Node / NPM Commands
+### Node / NPM Commands
 ```shell
 ./vendor/bin/sail node --version
  
@@ -156,9 +160,34 @@ If you wish, you may use Yarn instead of NPM:
 ./vendor/bin/sail yarn
 ```
 
-#### Running Tests
+### Running Tests
 ```shell
 ./vendor/bin/sail test
 
 ./vendor/bin/sail test --group orders
 ```
+
+</details>
+
+<details>
+<summary>Without Docker</summary>
+
+### Artisan Commands
+```shell
+php artisan serve
+php artisan list
+```
+
+### Node / NPM Commands
+```shell
+npm run dev
+// or
+npm run build
+```
+
+### Running Tests
+```shell
+composer test
+```
+
+</details>
