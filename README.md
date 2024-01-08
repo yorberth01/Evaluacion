@@ -10,7 +10,7 @@ The API we want you to connect to is https://quotes.rest/
 
 ### The application should have the following features:
 * User authentication and profile update page
-* A page that shows 5 random Kayne West quotes
+* A page that shows 5 random quotes
     * There should be a button to refresh the quotes
     * There should be a button besides each quote to save it to your favorites
 * A page that shows your saved favorites
