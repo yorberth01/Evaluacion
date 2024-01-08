@@ -1,5 +1,6 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
+[Spanish / Español](./LEAME.md)
 
 # Quotes App
 #### Skill Assessment
@@ -21,7 +22,7 @@ The API we want you to connect to is https://quotes.rest/
 * Frontend should be done with Vue.js and optionally Inertia.js
     * Typescript should be used for any frontend functionality
     * UI should be responsive
-* An API route should be available to fetch a specified number of quotes random Kayne West quotes
+* An API route should be available to fetch a specified number of quotes random quotes
 * An API route should be available to fetch your favorites quotes
 * An API route should be available to delete a quote from your favorites
 * All API route should be secured with an user token
