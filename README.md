@@ -1,12 +1,12 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 
-# Kanye West Quotes
+# Quotes App
 #### Skill Assessment
 
 The challenge will contain a few core features most applications have. That includes connecting to an API, basic MVC, exposing an API, and finally tests.
 
-The API we want you to connect to is https://kanye.rest/
+The API we want you to connect to is https://quotes.rest/
 
 ### The application should have the following features:
 * User authentication and profile update page
@@ -15,7 +15,7 @@ The API we want you to connect to is https://kanye.rest/
     * There should be a button besides each quote to save it to your favorites
 * A page that shows your saved favorites
     * There should be a button to delete a quote from your favorites
-* Implement rate limiting for API requests to `https://kanye.rest/` preventing abuse.
+* Implement rate limiting for API requests to `https://quotes.rest/` preventing abuse.
     * The API should be limited to 30 requests per minutes
 * Separate admin authentication for moderating saved user quotes and banning users
 * Frontend should be done with Vue.js and optionally Inertia.js
@@ -37,20 +37,20 @@ Email: `<your email>`<br/>
 ### Cloning the repository
 1. Create a bare clone of the repository. (This is temporary and will be removed so just do it wherever.)
     ```bash
-    git clone --bare https://github.com/FmTod/skill-assessment-kanye-west.git
+    git clone --bare https://github.com/FmTod/skill-assessment-quotes.git
     ```
 
 2. Create a new repository on GitHub.
 
 3. Mirror-push your bare clone to your new repository.<br/>_Replace &lt;username&gt; with your actual Github username in the url below._<br/>_Replace &lt;repository&gt; with the name of your new repository._
     ```shell
-    cd skill-assessment-kanye-west.git
+    cd skill-assessment-quotes.git
     git push --mirror https://github.com/<username>/<repository>.git
     ```
 4. Delete the bare clone created in step 1.
     ```shell
     cd ..
-    rm -rf skill-assessment-kanye-west.git
+    rm -rf skill-assessment-quotes.git
     ```
    
 5. You can now clone your repository, where you are going to be working, on your machine (in my case in the code folder).
