@@ -26,6 +26,10 @@ La API a la que queremos que te conectes es https://quotes.rest/
 * Todas las rutas de la API deben estar aseguradas con un token de usuario
 * Todas las características anteriores deben probarse con pruebas de características
 
+#### Extra Credit
+* Usar Composition API y setup script en componentes de Vue
+* Crear el frontend junto al backend en el mismo projecto o applicacion
+
 ## Desarrollador
 Nombre: `<tu nombre>` <br/>
 Correo electrónico: `<tu correo electrónico>`<br/>
