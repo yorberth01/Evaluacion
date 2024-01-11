@@ -28,6 +28,10 @@ The API we want you to connect to is https://quotes.rest/
 * All API route should be secured with an user token
 * Above features are to be tested with Feature tests
 
+#### Extra Credit
+* Use composition API and setup script for Vue components
+* Create the frontend in the same/project repo as the backend
+
 ## Developer
 Name: `<your name>` <br/>
 Email: `<your email>`<br/>
