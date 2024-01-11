@@ -7,6 +7,9 @@
 
 The challenge will contain a few core features most applications have. That includes connecting to an API, basic MVC, exposing an API, and finally tests.
 
+### Important
+Create the frontend in the same project/repo as the backend
+
 The API we want you to connect to is https://quotes.rest/
 
 ### The application should have the following features:
@@ -30,7 +33,6 @@ The API we want you to connect to is https://quotes.rest/
 
 #### Extra Credit
 * Use composition API and setup script for Vue components
-* Create the frontend in the same/project repo as the backend
 
 ## Developer
 Name: `<your name>` <br/>
