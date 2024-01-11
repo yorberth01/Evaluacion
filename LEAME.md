@@ -5,6 +5,9 @@
 
 El desafío contendrá algunas características fundamentales que la mayoría de las aplicaciones tienen. Esto incluye la conexión a una API, un MVC básico, la exposición de una API y, finalmente, pruebas.
 
+### Importante
+* Crear el frontend junto al backend en el mismo projecto o applicacion
+
 La API a la que queremos que te conectes es https://quotes.rest/
 
 ### La aplicación debe tener las siguientes características:
@@ -28,7 +31,6 @@ La API a la que queremos que te conectes es https://quotes.rest/
 
 #### Extra Credit
 * Usar Composition API y setup script en componentes de Vue
-* Crear el frontend junto al backend en el mismo projecto o applicacion
 
 ## Desarrollador
 Nombre: `<tu nombre>` <br/>
