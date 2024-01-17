@@ -10,7 +10,7 @@ The challenge will contain a few core features most applications have. That incl
 ### Important
 Create the frontend in the same project/repo as the backend
 
-The API we want you to connect to is https://quotes.rest/
+The API we want you to connect to is [https://dummyjson.com/docs/quotes](https://dummyjson.com/docs/quotes)
 
 ### The application should have the following features:
 * User authentication and profile update page
